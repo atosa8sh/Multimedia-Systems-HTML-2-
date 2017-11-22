@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title> 
+    <style>
+        table, td {
+            border: 3px ridge white;
+            background-color: #F1D741;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Let's try some voting</h1>
+    <div id="form" style="width:2000px;">
+        <p>Hey guys! I want to hold a poll about some musician, and i want your opinion about some artist. so let's ROCK!</p>
+        <div style="width:400px;height:190px;margin-left:500px;">
+            <table style="border:ridge; border-width:3px; border-color:white">
+                <tr>
+                    <td><b>Band</b></td>
+                    <td><b>Guitarist</b></td>
+                    <td><b>Drummer</b></td>
+                </tr>
+                <tr>
+                    <td>Megadeth</td>
+                    <td>Dave Mustaine</td>
+                    <td>Chris Adler</td>
+                </tr>
+                <tr>
+                    <td>Dream Theater</td>
+                    <td>John Petrucci</td>
+                    <td>Mike Mangini</td>
+                </tr>
+                <tr>
+                    <td>Metallica</td>
+                    <td>James Hetfield</td>
+                    <td>Lars Ulrich</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Thanks for reading!</td>
+                </tr>
+            </table>
+        </div>
+        <p>So choose your favorites!</p>
+        <fieldset style="width: 1300px">
+            <legend style="color:black; margin-left:600px;">Sign Up</legend>
+            Username: <input type="text" /><br />
+            Password: <input type="text" /><br />
+            <input type="radio" /> Male
+            <input type="radio" /> Female <br />
+            <select name="menu">
+                <option selected>select your foreign</option>
+                <option >Iran</option>
+                <option >United States</option>
+                <option>Italy</option>
+                </select><br />
+                <input type="submit" value="Sign Up" />
+</fieldset>
+    </div>
+</body>
+</html>
